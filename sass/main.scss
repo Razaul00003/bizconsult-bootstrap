@@ -1,0 +1,16 @@
+//custom varibles
+
+//import funciton and variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+//custom theme
+$custom-theme-colors: (
+  "altdark": #0e2e50,
+  "main": #00b98e,
+  "altwhite": white,
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+//import boostrap from boostrap package sass
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

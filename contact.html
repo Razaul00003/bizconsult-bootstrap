@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bizconsult</title>
+
+    <!---- font awesome  font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!---- font awesome  icon cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!---- boostrap css  -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+
+    <!---- owl carausel css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!---- custom  css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="container-fluid bg-main">
+      <nav class="navbar container navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <p class="display-5 text-white">BizConsult</p></a
+        >
+        <button
+          class="navbar-toggler bg-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link text-white" href="/">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white" href="/about.html">About</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white" href="/service.html">Services</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white" href="/contact.html">Contact</a>
+            </li>
+            <li class="nav-item px-2 dropdown">
+              <a
+                class="nav-link text-white dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/features.html">Features</a>
+                <a class="dropdown-item" href="/testimonial.html"
+                  >Testimonial</a
+                >
+                <a class="dropdown-item" href="/team.html">Our Team</a>
+                <a class="dropdown-item" href="/contact.html">Free Quote</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-pill text-main bg-white">
+                <a class="nav-link text-main" href="/contact.html"
+                  >Free quote</a
+                >
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid bg-main text-white text-center py-5">
+        <h3 class="h3 mb-4">Contact</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="/index.html" class="text-white">Home</a>
+            </li>
+            <li class="breadcrumb-item text-white active" aria-current="page">
+              Contact
+            </li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="container text-center my-5 py-5">
+        <form>
+          <div class="row w-50 m-auto">
+            <div class="col-12 col-md-6 mb-5">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col-12 col-md-6 mb-5">
+              <input type="text" class="form-control" placeholder="Last name" />
+            </div>
+            <div class="col-12">
+              <textarea
+                placeholder="Your message here"
+                class="form-control mb-5"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+          </div>
+          <button type="button" class="btn btn-main text-white">Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer class="bg-altdark text-white container-fluid">
+      <div class="container">
+        <div class="row py-5 gap-sm-5 justify-content-between">
+          <div class="col-12 col-sm-5 col-md-6 col-lg-3">
+            <p class="text-white h5">Quick Link</p>
+            <ul class="list-unstyled">
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white">Home</a>
+              </li>
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white">Contact</a>
+              </li>
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white"
+                  >Privacy policy</a
+                >
+              </li>
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white"
+                  >Terms & condition
+                </a>
+              </li>
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white">Home</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-5 col-md-6 col-lg-3">
+            <p class="text-white h5">Popular Link</p>
+            <ul class="list-unstyled">
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white">Home</a>
+              </li>
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white">Contact</a>
+              </li>
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white"
+                  >Privacy policy</a
+                >
+              </li>
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white"
+                  >Terms & condition
+                </a>
+              </li>
+              <li class="p-2">
+                <i class="fa-solid fa-angle-right pe-2"></i
+                ><a href="#" class="text-decoration-none text-white">Home</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <p class="text-white h5">News letter</p>
+            <div class="input-group mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Recipient's email"
+                aria-label="Recipient's email"
+                aria-describedby="basic-addon2"
+              />
+              <div class="input-group-append">
+                <button
+                  class="btn bg-white rounded-0 rounded-right text-main"
+                  type="submit"
+                >
+                  <i class="fa-solid fa-paper-plane text-main"></i>
+                </button>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="fa-solid fa-envelope text-white pe-2"></i>
+              contact@bizconsult.com
+            </div>
+            <div class="d-flex py-2 align-items-center">
+              <i class="fa-solid fa-phone-flip text-white pe-2"></i>
+              +012 345 67890
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="fa-brands fa-facebook-messenger text-white pe-2"></i>
+
+              m.me/bizconsult
+            </div>
+            <div
+              class="d-flex justify-content-between ps-0 align-items-start text-white p-3"
+            >
+              <i
+                class="fa-brands text-altdark bg-white p-2 rounded-circle fa-linkedin-in"
+              ></i>
+              <i
+                class="fa-brands text-altdark bg-white p-2 rounded-circle fa-twitter"
+              ></i>
+              <i
+                class="fa-brands text-altdark bg-white p-2 rounded-circle fa-facebook"
+              ></i>
+              <i
+                class="fa-brands text-altdark bg-white p-2 rounded-circle fa-instagram"
+              ></i>
+              <i
+                class="fa-brands text-altdark bg-white p-2 rounded-circle fa-youtube"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="container">
+          <div
+            class="d-flex justify-content-between flex-sm-column-reverse flex-md-row"
+          >
+            <div>
+              <p>
+                <i class="fa-solid fa-copyright"></i> Bizconsult , All right
+                reserved . Made with love by
+                <a
+                  href="https://github.com/Razaul00003"
+                  class="text-decoration-none text-main"
+                  >Razaul</a
+                >
+                <br />
+                Template inspiration ThemeWagon
+              </p>
+            </div>
+            <div class="">
+              <ul class="d-flex list-unstyled">
+                <li class="p-2">
+                  <a href="./index.html" class="text-decoration-none text-white"
+                    >Home</a
+                  >
+                </li>
+                <li class="p-2">
+                  <a href="#" class="text-decoration-none text-white">FAQs</a>
+                </li>
+                <li class="p-2">
+                  <a href="#" class="text-decoration-none text-white">Story</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-----jquery script-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-----owl carusel script-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--custom script -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
